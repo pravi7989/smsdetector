@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SMS Spam Classifier</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>SMS Spam Classifier</h1>
+    <textarea id="smsInput" placeholder="Enter your SMS message here..."></textarea>
+    <button onclick="classifySMS()">Classify</button>
+    <p id="result"></p>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    color: #333;
+}
+
+textarea {
+    width: 80%;
+    height: 100px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#result {
+    font-weight: bold;
+    color: #333;
+}
